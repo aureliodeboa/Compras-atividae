@@ -65,7 +65,9 @@ img{
     padding: 4px;
     padding-left: 10px;
     font-size: large;
+    
 }
+
 .input_area button{
 
     font-size: 18px;
@@ -82,6 +84,10 @@ img{
 
     background: var(--color-brand, #CA3884);
 
+
+}
+.input_area button:hover{
+    background-color: #A52C6B;
 }
 
 .lista{
@@ -211,7 +217,7 @@ li{
   
   /* When the radio button is checked, add a blue background */
   .container-checkbox input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: #CA3884;
   }
   
   /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -235,3 +241,5 @@ li{
     border-radius: 50%;
     background: white;
   }
+
+
